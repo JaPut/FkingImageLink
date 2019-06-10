@@ -1,0 +1,42 @@
+.image {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url(/images/image.jpg);
+}
+.image1 {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url(images/image.jpg);
+}
+.image2 {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url(./images/image.jpg);
+}
+.image3 {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url(../images/image.jpg);
+}
+.image4 {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url("../images/image.jpg");
+}
+.image5 {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url("/images/image.jpg");
+}
+.image6 {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    background-image: url("images/image.jpg");
+}
